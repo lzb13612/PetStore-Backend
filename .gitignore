@@ -48,7 +48,9 @@ temp/
 .gradle/
 
 ### fisco project files ###
-src/main/resources/
+src/main/resources/abi/
+src/main/resources/bin/
+src/main/resources/conf/
 src/main/contracts/
 src/main/java/org/example/PetStore/model/bo/
 src/main/java/org/example/PetStore/raw/
