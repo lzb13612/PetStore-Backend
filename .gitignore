@@ -44,3 +44,20 @@ gen/
 logs/
 log
 temp/
+
+.gradle/
+
+### fisco project files ###
+src/main/resources/
+src/main/contracts/
+src/main/java/org/example/PetStore/model/bo/
+src/main/java/org/example/PetStore/raw/
+src/test/
+gradle/
+src/main/java/org/example/PetStore/config/ContractConfig.java
+src/main/java/org/example/PetStore/config/SdkBeanConfig.java
+src/main/java/org/example/PetStore/config/SystemConfig.java
+src/main/java/org/example/PetStore/model/CommonResponse.java
+src/main/java/org/example/PetStore/service/AdoptionService.java
+src/main/java/org/example/PetStore/service/ServiceManager.java
+src/main/java/org/example/PetStore/utils/IOUtil.java

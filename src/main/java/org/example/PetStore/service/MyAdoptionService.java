@@ -4,9 +4,7 @@ import cn.hutool.core.lang.Dict;
 import cn.hutool.core.util.HexUtil;
 import cn.hutool.json.JSONArray;
 import cn.hutool.json.JSONObject;
-import cn.hutool.core.convert.Convert;
 import cn.hutool.json.JSONUtil;
-import org.bouncycastle.util.StringList;
 import org.example.PetStore.utils.WeBASEUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -16,7 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import lombok.extern.slf4j.Slf4j;
-import springfox.documentation.spring.web.json.Json;
 
 @Slf4j
 @Service
